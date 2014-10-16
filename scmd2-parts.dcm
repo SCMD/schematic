@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 25/08/2014 21:38:59
+#
+$CMP SW_GENERIC
+D generic switch
+K Switch
+$ENDCMP
+#
+#End Doc Library
