@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 27.889999 27.614879 114.858001 98.602001)
     (thickness 1.6)
-    (drawings 5)
+    (drawings 7)
     (tracks 477)
     (zones 0)
     (modules 71)
@@ -30,7 +30,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.254)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (user_trace_width 1.5)
@@ -61,7 +61,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 3178497)
+      (layerselection 279609345)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -83,9 +83,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -2831,6 +2831,12 @@
     )
   )
 
+  (gr_text "CeDEx Labs, 2014" (at 66.548 74.676) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "SCMD v.0.1" (at 62.738 77.216) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (target plus (at 41.91 38.1) (size 0.005) (width 0.1) (layer Edge.Cuts))
   (gr_line (start 114.808 30.48) (end 114.808 98.552) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 27.94 98.552) (end 114.808 98.552) (angle 90) (layer Edge.Cuts) (width 0.1))
