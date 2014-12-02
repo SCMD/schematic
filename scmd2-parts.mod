@@ -1,10 +1,12 @@
-PCBNEW-LibModule-V1  24/10/2014 22:56:11
+PCBNEW-LibModule-V1  02/12/2014 00:21:08
 # encoding utf-8
 Units mm
 $INDEX
 SW_M7RE
 USB_MINI_B_fixed
 double_led
+pin_array_3x2_ICSP
+pin_array_4x2_SKIN_EL
 pushbutton_side
 $EndINDEX
 $MODULE SW_M7RE
@@ -171,6 +173,156 @@ Ne 0 ""
 Po -2.54 0
 $EndPAD
 $EndMODULE double_led
+$MODULE pin_array_3x2_ICSP
+Po 0 0 0 15 547D001C 00000000 ~~
+Li pin_array_3x2_ICSP
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+Sc 0
+AR /53EBAA73
+Op 0 0 0
+T0 5.08 0 1.016 1.016 0 0.2032 N V 21 N "J2"
+T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "ICSP"
+T2 0 -3.81 0.5 0.5 900 0.1 N V 21 N "MOSI"
+T2 2.54 3.81 0.5 0.5 900 0.1 N V 21 N "RST"
+T2 0 3.81 0.5 0.5 900 0.1 N V 21 N "SCK"
+T2 -2.54 3.81 0.5 0.5 900 0.1 N V 21 N "MISO"
+T2 2.54 -3.81 0.5 0.5 900 0.1 N V 21 N "GND"
+T2 -2.54 -3.81 0.5 0.5 900 0.1 N V 21 N "+5V"
+DS 3.81 2.54 -3.81 2.54 0.2032 21
+DS -3.81 -2.54 3.81 -2.54 0.2032 21
+DS 3.81 -2.54 3.81 2.54 0.2032 21
+DS -3.81 2.54 -3.81 -2.54 0.2032 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "/MISO"
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "/SCK"
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "/MOSI"
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "/RESET"
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "GND"
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_3x2_ICSP
+$MODULE pin_array_4x2_SKIN_EL
+Po 0 0 0 15 547D05E3 00000000 ~~
+Li pin_array_4x2_SKIN_EL
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+Sc 0
+AR /53EBC075
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "J3"
+T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "SKIN_EL"
+T2 3.81 -3.175 0.5 0.5 0 0.1 N V 21 N "D"
+T2 1.27 -3.175 0.5 0.5 0 0.1 N V 21 N "C"
+T2 -1.27 -3.175 0.5 0.5 0 0.1 N V 21 N "B"
+T2 -3.81 -3.175 0.5 0.5 0 0.1 N V 21 N "A"
+DS -5.08 -2.54 5.08 -2.54 0.3048 21
+DS 5.08 -2.54 5.08 2.54 0.3048 21
+DS 5.08 2.54 -5.08 2.54 0.3048 21
+DS -5.08 2.54 -5.08 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "N-0000060"
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "/SC1"
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "N-0000060"
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "/SC2"
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "N-0000060"
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "/SC3"
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "N-0000060"
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "/SC4"
+Po 3.81 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_4x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_4x2_SKIN_EL
 $MODULE pushbutton_side
 Po 0 0 0 15 53FBA584 00000000 ~~
 Li pushbutton_side
