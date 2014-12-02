@@ -1,0 +1,22 @@
+Drill report for D:\xmega128\SCMD2\SCMD2.kicad_pcb
+Created on 02/12/2014 00:26:56
+Drill report for plated through holes :
+T1  0,64mm  0,025"  (29 holes)
+T2  0,76mm  0,030"  (2 holes)
+T3  0,81mm  0,032"  (154 holes)
+T4  0,99mm  0,039"  (2 holes)
+T5  1,00mm  0,039"  (3 holes)  (with 3 slots)
+T6  1,02mm  0,040"  (14 holes)
+T7  1,09mm  0,043"  (4 holes)
+T8  1,30mm  0,051"  (2 holes)
+T9  3,05mm  0,120"  (4 holes)
+
+Total plated holes count 214
+
+
+Drill report for unplated through holes :
+T1  0,90mm  0,035"  (2 holes)
+
+Total unplated holes count 2
+
+

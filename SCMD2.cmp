@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 24/10/2014 22:57:12
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 02/12/2014 00:26:11
 
 BeginCmp
 TimeStamp = /53D2D7C5;
@@ -200,7 +200,7 @@ BeginCmp
 TimeStamp = /53EBB0A5;
 Reference = D6;
 ValeurCmp = LM385-1.2;
-IdModule  = TO92-123;
+IdModule  = TO92;
 EndCmp
 
 BeginCmp
@@ -235,14 +235,14 @@ BeginCmp
 TimeStamp = /53EBAA73;
 Reference = J2;
 ValeurCmp = ICSP;
-IdModule  = pin_array_3x2;
+IdModule  = pin_array_3x2_ICSP;
 EndCmp
 
 BeginCmp
 TimeStamp = /53EBC075;
 Reference = J3;
 ValeurCmp = SKIN_EL;
-IdModule  = pin_array_4x2;
+IdModule  = pin_array_4x2_SKIN_EL;
 EndCmp
 
 BeginCmp
@@ -256,21 +256,21 @@ BeginCmp
 TimeStamp = /53ED353F;
 Reference = L1;
 ValeurCmp = 100uH;
-IdModule  = self_cms_we-tpc_XL;
+IdModule  = Neosid_Inductor_SM-NE56_SMD2220_RevA_21Apr2012;
 EndCmp
 
 BeginCmp
 TimeStamp = /53DD445F;
 Reference = Q1;
 ValeurCmp = 2N3904;
-IdModule  = TO92;
+IdModule  = TO92-INVERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D2D6A1;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = R3;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -431,7 +431,7 @@ BeginCmp
 TimeStamp = /53DC0444;
 Reference = U4;
 ValeurCmp = TL431LP;
-IdModule  = TO92;
+IdModule  = TO92-INVERT;
 EndCmp
 
 BeginCmp
